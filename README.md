@@ -42,4 +42,4 @@ ax
 
 as expected.
 
-The issue seems to stem from the fact that there's an additional crate `b` in the workspace that's also a bin crate that depends on `a`.
+The issue seems to stem from the fact that there's an additional crate `b` in the workspace that depends on `a`.
