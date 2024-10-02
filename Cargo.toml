@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["a", "b"]
+
+[workspace.package]
+edition      = "2021"
+repository   = "https://github.com/dzejkop/bizarre-rust-features-behaviour"
